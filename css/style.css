@@ -1,0 +1,81 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.backgroundHeader{
+    background-color: green;
+    letter-spacing: 1px;
+    padding: 1px;
+    margin-bottom: 40px;
+}
+
+.displayCenter{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.displayOrder{
+    display: grid;
+    justify-content: center;
+}
+
+.spacing{
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.greenTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #357628;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+button{
+    padding: 10px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.backgroundFooter{
+    background-color: green;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+}
+
+.positionImage{
+    text-align: center;
+}
+.textFooter{
+    font-size: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    opacity: 0.69;
+
+}
+.sizeImage{
+    width: 20px;
+}

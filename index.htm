@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Consumindo API ViaCep</title>
+
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="backgroundHeader">
+    <h1 class="displayCenter">API ViaCep</h1>
+    <h4 class="displayCenter">Consulte CEPs de todo o Brasil</h4>
+    </header>
+
+    <div class="displayCenter displayOrder">
+        <label class="greenTitle">Digite seu CEP: </label>
+        <input class="spacing" type="tel" id="cep"></input>
+        <button onclick="consultaEndereco()">Consultar</button>
+    </div>
+
+    <div class="displayCenter displayOrder" id="resultado"></div>
+
+    <footer class="backgroundFooter displayOrder">
+        <span class="textFooter">Creditos ao <a href="https://viacep.com.br/" target="_blank">ViaCEP</a> por disponibilizar essa API</span>
+        <p class="textFooter">Made By Victória Barbosa</p>
+
+        <div class="positionImage">
+            <a  href="https://github.com/vivi-barba" target="_blank"><img class="sizeImage" src="img/github.png"></a>
+            <a href="https://www.linkedin.com/in/victoriabarbosa31/" target="_blank"><img class="sizeImage" src="img/linkedin.png"></a>
+        </div>
+    </footer>
+</body>
+</html>
