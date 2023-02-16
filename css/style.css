@@ -38,7 +38,6 @@ h4{
 input{
     padding: 5px;
     border-radius: 5px;
-    
 }
 
 .greenTitle{
@@ -69,13 +68,14 @@ button{
 .positionImage{
     text-align: center;
 }
+
 .textFooter{
     font-size: 10px;
     text-align: center;
     font-family: sans-serif;
     opacity: 0.69;
-
 }
+
 .sizeImage{
     width: 20px;
 }
